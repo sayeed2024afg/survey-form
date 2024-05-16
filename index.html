@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <style type="text/css">
+.form-control{
+text-align: left;
+margin-bottom: 25px;
+}
+form{
+    margin: 50px auto;
+    padding: 30px 30px;
+    max-width: 350px;
+}
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;" style="color: red;">Code crush survey form</h1>
+<form style="text-align: center;">
+    <fieldset>
+    <div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">Name</label>
+    <input type="text" name="Name" placeholder="enter your name">
+</div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">Email</label>
+    <input type="text" name="Email" placeholder="enter your email">
+</div>
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">age</label>
+    <input type="text" name="age" placeholder="enter your age">
+</div>
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">which option best describes you?</label>
+    <select>
+        <option>student</option>
+        <option>Intern</option>
+        <option>profession</option>
+        <option>other</option>
+    </select>
+</div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">would you recommend code crush to a freind?</label>
+    <input type="radio" name="choice">Yes
+    <input type="radio" name="choice">NO
+    <input type="radio" name="choice">Maybe
+</div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">Languages and Frameworks known</label>
+    <input type="checkbox" name="select">C++
+    <input type="checkbox" name="select">CSS
+    <input type="checkbox" name="select">Java
+    <input type="checkbox" name="select">Html
+</div>
+<button type="Submit">Submit</button>
+</fieldset>
+</form>
+</body>
+</html>
