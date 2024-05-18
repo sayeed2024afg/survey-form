@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>survey form</title>
+
+</head>
+<body>
+<h1 id="title">Code crush survey form</h1>
+<p id="description">Thank you for taking time to fill the form</p>
+<form>
+    <fieldset>
+        <div>
+    <label>Name</label>
+    <input type="text" id="Name" placeholder="enter your name">
+</div>
+<div>
+    <label>Email</label>
+    <input type="text" id="Email" placeholder="enter your email">
+</div>
+<div>
+    <label>age</label>
+    <input type="number" min="18" max="35" id="age" placeholder="enter your age">
+</div>
+<div>
+    <label>which option best describes you?</label>
+    <select>
+        <option>student</option>
+        <option>Intern</option>
+        <option>profession</option>
+        <option>other</option>
+    </select>
+</div>
+<div>
+    <label>would you recommend code crush to a freind?</label>
+    <input type="radio" name="choice">Yes
+    <input type="radio" name="choice">NO
+    <input type="radio" name="choice">Maybe
+</div>
+<div>
+    <label>Languages and Frameworks known</label>
+    <input type="checkbox" value="select">C++
+    <input type="checkbox" value="select">CSS
+    <input type="checkbox" value="select">Java
+    <input type="checkbox" value="select">Html
+</div>
+<div>
+    <label>any comments or suggestions:</label>
+    <textarea placeholder="enter your comment here"></textarea>
+</div>
+<button type="Submit">Submit</button>
+</fieldset>
+</form>
+</body>
+</html>
