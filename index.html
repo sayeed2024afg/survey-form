@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
     <title>survey form</title>
 
 </head>
 <body>
-<h1>Code crush survey form</h1>
+<h1 id="title">Code crush survey form</h1>
+<p id="description">Thank you for taking time to fill the form</p>
 <form>
     <fieldset>
         <div>
     <label>Name</label>
-    <input type="text" name="Name" placeholder="enter your name">
+    <input type="text" id="Name" placeholder="enter your name">
 </div>
 <div>
     <label>Email</label>
-    <input type="text" name="Email" placeholder="enter your email">
+    <input type="text" id="Email" placeholder="enter your email">
 </div>
 <div>
     <label>age</label>
-    <input type="text" name="age" placeholder="enter your age">
+    <input type="number" min="18" max="35" id="age" placeholder="enter your age">
 </div>
 <div>
     <label>which option best describes you?</label>
@@ -40,10 +41,14 @@
 </div>
 <div>
     <label>Languages and Frameworks known</label>
-    <input type="checkbox" name="select">C++
-    <input type="checkbox" name="select">CSS
-    <input type="checkbox" name="select">Java
-    <input type="checkbox" name="select">Html
+    <input type="checkbox" value="select">C++
+    <input type="checkbox" value="select">CSS
+    <input type="checkbox" value="select">Java
+    <input type="checkbox" value="select">Html
+</div>
+<div>
+    <label>any comments or suggestions:</label>
+    <textarea placeholder="enter your comment here"></textarea>
 </div>
 <button type="Submit">Submit</button>
 </fieldset>
